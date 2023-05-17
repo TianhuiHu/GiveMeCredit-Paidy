@@ -8,19 +8,17 @@ For markets and society to function, individuals and companies need access to cr
 
 Historical data are provided on 150,000 borrowers.https://www.kaggle.com/c/GiveMeSomeCredit
 
-## Usage
+## Scripts
 
-Provide instructions and examples for how to use your project. This can include code snippets, command-line instructions, or screenshots.
+EDA.ipnyb in this notebook, an exploratory data analysis is performed on Give Me Some Credit's training set and preprocessing advice will be given accordingly.
 
-preprocess.py Running this script will preprocess training dataset and saves essential items to ensure that the test dataset goes through the same preprocessing steps. Output items will be a pickled dictionary containing values for imputation (if activated), and preprocessed dataset in the data/ folder.
+preprocessing.ipynb Running this script will preprocess training dataset and saves essential items to ensure that the test dataset goes through the same preprocessing steps. Output items  and preprocessed dataset in the csv/ folder. 
 
-train.py Running this script will train a classic machine learning model on the preprocessed training dataset and saves the model. The model file can be found in model_output/ folder.
+model_selection.ipynb Running this script will train a classic machine learning model on the preprocessed training dataset and saves the model. The model file can be found in models/ folder.
 
-generate_predictions.py Running this script will allow the trained model to generate predictions for the test dataset. The predictions can be found in a csv contained within model_output/ folder.
+Model_Tunning.ipynb Running this script will allow the trained model to generate predictions for the test dataset. The predictions can be found in a csv contained within model_output/ folder.
 
-## Contributing
-
-Explain how others can contribute to your project. Provide guidelines for submitting pull requests, reporting issues, or suggesting improvements.
+Model Validation.ipynb Running this script will provide final step - model validation
 
 ## License
 
