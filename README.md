@@ -30,15 +30,13 @@ This project is licensed under the [MIT License](LICENSE).
 - Email: crystalhu0106@gmail.com.com
 
 
-Best Parameters for XGBoost
-subsample: 0.6
-reg_lambda: 0
-reg_alpha: 0
-n_estimators: 550
-min_child_weight: 6
-max_depth: 8
-learning_rate: 0.007
-gamma: 0.4
-colsample_bytree: 0.6
-booster: gbtree
-random_state: 0
+## Best Parameters for XGBoost
+xgb__colsample_bytree: 0.9
+xgb__eta:0.1
+xgb__max_depth:3
+xgb__n_estimators:100
+
+## Best Parameters for RandomForest
+criterion: 'entropy',
+max_depth: 'None', 
+n_estimators: 200
